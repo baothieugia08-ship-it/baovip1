@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/"
+  to = "/accounts-center"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/accounts-center"
+  to = "/index.html"
+  status = 200

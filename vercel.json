@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/accounts-center",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/accounts-center",
+      "destination": "/index.html"
+    }
+  ]
+}
